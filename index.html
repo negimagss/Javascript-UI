@@ -1,0 +1,447 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+    <!--    Head     -->
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Welcome | Shardul Singh Negi</title>
+        <link href='http://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/foundation.min.css" />
+        <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="css/header.css" />
+        <link rel="stylesheet" href="css/main.css" />
+        <script src="js/vendor/modernizr.js"></script>
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>
+
+        </script>
+    </head>
+
+    <!--    Body     -->
+    <body>
+        <!-- To support the mobile-- >
+        <div id="skrollr-body">
+
+            <!--	Class loader screen for giving the loading value     -->
+            <div class="loader">
+                <i class="fa fa-large fa-refresh"></i>
+                <p>Loading..</p>
+            </div>
+
+            <!--	Background     -->
+            <div class="background"
+                data-anchor-target="#intro"
+                data--100-bottom="filter:    blur(0px);"
+                data-top-center="filter:    clur(10px);">
+            </div>
+
+            <!--	Left nav     -->
+            <div class="small-nav"
+                data--100-bottom="opacity: 0;"
+                data-top-top="opacity: 1;"
+                data-anchor-target="#section-about">
+                <i id="u" class="fa fa-small-up fa-angle-up customScroll-up-down">
+                </i>
+                <i id="#section-about" class="fa fa-small about fa-active customScroll">
+                </i>
+                <i id="#section-projects" class="fa fa-small projects customScroll">
+                </i>
+                <i id="#section-social" class="fa fa-small social customScroll">
+                </i>
+                <i id="d" class="fa fa-small-down fa-angle-down customScroll-up-down">
+                </i>
+            </div>
+
+            <!--	Header     -->
+            <div class="intro" id="intro">
+                <div class="intro-body"
+                    data--100-bottom="opacity: 1;"
+                    data-top-center="opacity: 0;">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-8 col-md-offset-2">
+                                <h1 class="brand-heading">Shardul Singh Negi</h1>
+                                <hr/>
+                                <p class="intro-text">Engineer &nbsp&nbsp <blue>|</blue> &nbsp&nbsp Programmer &nbsp&nbsp <blue>|</blue> &nbsp&nbsp Designer</p>
+                                <div class="btn-container">
+                                    <div class="btn-icon" >
+                                        <a id="#section-about" class="customScroll"><i class=" fa fa-medium fa-angle-double-down"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+            <!--    Main Content     -->
+            <div class="jumbotron" id="section-about">
+                <div class="section"
+                    data-bottom-top="opacity: 0;"
+                    data-center="opacity:1;"
+                    data-anchor-target="#about-header">
+                    <div class="row">
+                        <h1 id="about-header">About Me <i class="fa fa-user"></i></h1>
+                        <div class="hor-rule"
+                            data-bottom="width: 0%; margin-left: 50%;"
+                            data-150-center="width:100%; margin-left: 0%;">
+                            <hr/>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="large-12 columns">
+                            <p id="about-text"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="jumbotron-alt" id="section-skills">
+                <div class="section"
+                    data-bottom-top="opacity: 0;"
+                    data-center="opacity:1;"
+                    data-anchor-target="#skills-header">
+                    <div class="row">
+                        <h1 id="skills-header">Intrests <i class="fa fa-wrench"></i></h1>
+                        <div class="hor-rule"
+                            data-bottom="width: 0%; margin-left: 50%;"
+                            data-150-center="width:100%; margin-left: 0%;">
+                            <hr/>
+                        </div>
+                    </div>
+                    <br/>
+                    <div class="row">
+                        <div class="large-4 columns medium-6">
+                            <div class="btn-container">
+                                <div class="btn-icon">
+                                    <i class="fa fa-large fa-cog"></i>
+                                </div>
+                                <h3>Software Development</h3>
+                            </div>
+                        </div>
+                        <div class="large-4 columns medium-6">
+                            <div class="btn-container">
+                                <div class="btn-icon">
+                                    <i class="fa fa-large fa-lightbulb-o"></i>
+                                </div>
+                                <h3>Programmer</h3>
+                            </div>
+                        </div>
+                        <div class="large-4 columns medium-6">
+                            <div class="btn-container">
+                                <div class="btn-icon">
+                                    <i class="fa fa-large fa-laptop"></i>
+                                </div>
+                                <h3>Web Development</h3>
+                            </div>
+                        </div>
+                        <br/>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="trans-panel">
+            </div>
+
+            <div class="jumbotron" id="section-projects">
+                <div class="section"
+                    data-bottom-top="opacity: 0;"
+                    data-center="opacity:1;"
+                    data-anchor-target="#project-header">
+                    <div class="row">
+                        <h1 id="project-header">Personal Projects <i class="fa fa-file"></i></h1>
+                        <div class="hor-rule"
+                            data-bottom="width: 0%; margin-left: 50%;"
+                            data-150-center="width:100%; margin-left: 0%;">
+                            <hr/>
+                        </div>
+                    </div>
+                    <br/>
+                    <div class="row">
+                        <div class="large-4 columns medium-6" id="grid1">
+                            <div class="btn-container">
+                                <div class="grid-cell">
+                                    <i class="fa fa-large-icon fa-file-image-o"></i>
+                                </div>
+                                <h3>Project Management</h3>
+                            </div>
+
+                            <div class="overlay-info" id="desc1">
+                                <p>
+                                    <b>Stack : Python, Django and Web Development</b>
+                                </p>
+                                <p>
+                                    Project Management for maintaining Student, Professor and Mentor level
+                                    project repository for managing and assignment of the same.
+                                </p>
+                                <p style="text-align:   center;">
+                                    <a href="https://github.com/shardulnegi21/projectportal" target="_blank"><i class="fa fa-github"></i> View on Github</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="large-4 columns medium-6" id="grid2">
+                            <div class="btn-container">
+                                <div class="grid-cell">
+                                    <i class="fa fa-large-icon fa-users"></i>
+                                </div>
+                                <h3>Paichat</h3>
+                            </div>
+                            <div class="overlay-info" id="desc2">
+                                <p>
+                                    <b>Stack : C <i class="fa fa-angle-double-right"></i> Web Development, Sockets</b>
+                                </p>
+                                <p>
+                                    Music app created in React JS for android phones. Have tested the app in Android Emulator.
+                                </p>
+                                <p style="text-align:   center;">
+                                    <a href="https://github.com/shardulnegi21/musicApp" target="_blank"><i class="fa fa-github"></i> View on Github</a>
+                                </p>
+                                 <p>
+                                    Online chat bot, hosted in heruku for peer to peer chat using Sockets.
+                                </p>
+                                <p style="text-align:   center;">
+                                    <a href="https://github.com/shardulnegi21/paichat" target="_blank"><i class="fa fa-github">
+                                        
+                                    </i> View on Github</a>
+                                </p>
+                                   <p>
+                                   food app for selecting food items from the console and adding to the cart
+                                </p>
+                                <p style="text-align:   center;">
+                                    <a href="https://github.com/shardulnegi21/Food-app" target="_blank"><i class="fa fa-github"></i> View on Github</a>
+                                </p>
+                            </div>
+                        </div>
+
+
+                       
+                            </div>
+                        </div>
+                    </div>
+                    <br><br>
+                    <div class="row">
+                        <p style="text-align: center;">
+                            <i>Hover over sections for more information</i>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="jumbotron-alt" id="section-resume">
+                <div class="section"
+                    data-bottom-top="opacity: 0;"
+                    data-center="opacity:1;"
+                    data-anchor-target="#resume-header">
+                    <div class="row">
+                        <h1 id="resume-header">View My Resume <i class="fa fa-list"></i></h1>
+                        <div class="hor-rule"
+                            data-bottom="width: 0%; margin-left: 50%;"
+                            data-150-center="width:100%; margin-left: 0%;">
+                            <hr/>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="large-12 columns">
+                            <form method="get" action="Shardul Negi_Resume.docx">
+                                <button class="btn-large" type="submit"><p>View Resume</p></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="trans-panel">
+            </div>
+            <div class="jumbotron" id="section-social">
+                <div class="section"
+                    data-bottom-top="opacity: 0;"
+                    data--50-bottom="opacity:1;">
+                    <div class="row">
+                        <h1>Follow Me On Social Media <i class="fa fa-comments-o"></i></h1>
+                        <div class="hor-rule"
+                            data-bottom="width: 0%; margin-left: 50%;"
+                            data--50-bottom="width:100%; margin-left: 0%;">
+                            <hr/>
+                        </div>
+                    </div>
+                    <br><br>
+                    <div class="row">
+                        <div class="large-3 columns medium-6">
+                            <div class="social-icon">
+                                <a href="https://www.facebook.com/negimags"><i class="fa fa-large-icon fa-social fa-facebook"></i></a>
+                            </div>
+                            <h3>Facebook</h3>
+                        </div>
+                        <div class="large-3 columns medium-6">
+                            <div class="social-icon">
+                                <a href="https://twitter.com/shardulnegi21"><i class="fa fa-large-icon fa-social fa-twitter"></i></a>
+                            </div>
+                            <h3>Twitter</h3>
+                        </div>
+                        <div class="large-3 columns medium-6">
+                            <div class="social-icon">
+                                <a href="https://www.linkedin.com/in/shardul-negi/"><i class="fa fa-large-icon fa-social fa-linkedin"></i></a>
+                            </div>
+                            <h3>LinkedIn</h3>
+                        </div>
+                        <div class="large-3 columns medium-6">
+                            <div class="social-icon">
+                                <a href="https://github.com/shardulnegi21"><i class="fa fa-large-icon fa-social fa-github-alt"></i></a>
+                            </div>
+                            <h3>Github</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="jumbotron-alt" id="section-contact">
+                <div class="section"
+                    data-bottom-top="opacity: 0;"
+                    data-center-top="opacity:1;">
+                    <div class="row">
+                        <h1>Contact Me <i class="fa fa-mobile-phone"></i></h1>
+                        <div class="hor-rule"
+                            data-bottom="width: 0%; margin-left: 50%;"
+                            data-150-center="width:100%; margin-left: 0%;">
+                            <hr/>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="large-6 columns">
+                            <h2>Email <i class="fa fa-inbox"></i></h2>
+                            <p style="text-align:center;">
+                                negi.s@husky.neu.edu<br>
+                                shardul.negi21@gmail.com
+                            </p>
+                        </div>
+                        <div class="large-6 columns">
+                            <h2>Phone <i class="fa fa-phone"></i></h2>
+                            <p style="text-align:center;">
+                                +1-617-821-3486
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="row">
+                            <div class="large-12 columns">
+                                <a href="#" data-reveal-id="myModal">
+                                    <button id="#section-form" class="btn-large form-reveal customScroll" onclick="return false;"><p>Get in touch with me</p></button>
+                                </a>
+                            </div>
+                        </div>
+                        <br id="section-form">
+                        <div id="email-form" class="row form-div" style="display:none;">
+                            <div style="text-align: center ">
+                                <h2>Almost There!</h2>
+                                <p>Please fill in the form below to get in touch!</p>
+
+                                <!--    Contact Form    -->
+                                <form>
+                                    <div class="row">
+                                        <div class="large-2 columns medium-4">
+                                            <p>
+                                                Name
+                                            </p>
+                                        </div>
+                                        <div class="large-10 columns medium-6">
+                                            <label>
+                                                <input class="field" type="text" name="name">
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="large-2 columns medium-4">
+                                            <p>
+                                                Email
+                                            </p>
+                                        </div>
+                                        <div class="large-10 columns medium-6">
+                                            <label>
+                                                <input class="field" type="email" name="email">
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="large-2 columns medium-4">
+                                            <p>
+                                                Subject
+                                            </p>
+                                        </div>
+                                        <div class="large-10 columns medium-6">
+                                            <label>
+                                                <input class="field" type="text" name="subject">
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="large-2 columns medium-4">
+                                            <p>
+                                                Body
+                                            </p>
+                                        </div>
+                                        <div class="large-10 columns medium-6">
+                                            <label>
+                                                <textarea class="field" name="body"></textarea>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="large-12 columns">
+                                            <button id="#section-contact" class="btn-large btn-send" ><p>Send <i class="fa fa-send"></i></p></button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="large-12 columns thanks" style="display:none;">
+                                <p style="text-align: center; position: relative; ">
+                                    <b><i class="fa fa-quote-left"></i> Thank You! Your email was successfully sent.</b>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--  Back to top button    -->
+                    <div class="row">
+                        <div class="btn-icon-up" >
+                            <a id="#intro" class="customScroll"><i class="fa fa-medium fa-angle-double-up"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="trans-panel" style="text-align:center">
+
+            </div>
+
+            <!--    Footer     -->
+            <div class="footer">
+                <p>
+                    © Shardul Negi
+                </p>
+            </div>
+
+        </div>
+
+        <!--    Scripts     -->
+        <script src="js/jquery.easing.1.3.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/app.js"></script>
+        <script src="js/customScroll.js"></script>
+        <script src="js/customNav.js"></script>
+        <script src="js/infoBox.js"></script>
+        <script src="js/skrollr.js"></script>
+        <script src="js/foundation.min.js"></script>
+        <script src="js/form.js"></script>
+        <script>
+          $(document).foundation();
+          var s = skrollr.init();
+          initInfo();
+        </script>
+    </body>
+</html>
